@@ -48,3 +48,7 @@ CREATE TABLE property_reviews (
   rating SMALLINT NOT NULL DEFAULT 0,
   message TEXT
 );
+
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
+VALUES (3, 2, 2, 8.5, 'message'),
+(1, 3, 3, 9.5, 'message');
